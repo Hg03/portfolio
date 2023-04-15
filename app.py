@@ -64,7 +64,8 @@ mdlit('## ⚗️ [red]Internship[/red] Experience')
 
 exp = "I've worked as Data Science Intern at katonic.ai"
 with st.expander(exp):
-    st.markdown('In more detail')
+    mdlit("@ [violet]Katonic.ai[/violet] , I've explored the processes of MLOps and its importance. I've worked on containerizing the machine learning model and having its [yellow]API[/yellow] and monitoring the model with **CI/CD** pipeline using Kubernetes. Overall I've worked and learned lots of things that how can we perform Machine Learning Operations in a real world.")
+    mdlit("Explore if you wish to @(Katonic)(https://www.katonic.ai)")
 
 st.divider()
 
