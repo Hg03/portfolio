@@ -52,6 +52,7 @@ second = "I've worked on lots of projects based on Machine Learning Operations"
 with st.expander(second):
     mdlit("- [red]OpenAI exploration[/red] - I've created a project which consist of conversational chatbot using [blue]openai[/blue] and [blue]lanchain[/blue] as well as mimic of [blue]Dalle 2[/blue]")
     mdlit("- [red]Life Expectany Prediction[/red] - I've created a [blue]Regression[/blue] model which is predicting the rate of life expectancy of person based on **alcohol consumption**, **adult mortality**, **country** etc.")
+    mdlit("📎 View the whole app consisting this [projects](https://mlexhaust.streamlit.app/)")
 third = "I've worked on lots of projects based on Machine Learning Operations"
 with st.expander(third):
     st.markdown('In more detail')
