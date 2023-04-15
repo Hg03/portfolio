@@ -2,7 +2,7 @@ import streamlit as st
 from markdownlit import mdlit
 
 
-st.set_page_config(title = 'Harish Gehlot',layout='wide')
+st.set_page_config(page_title = 'Harish Gehlot',layout='wide')
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
