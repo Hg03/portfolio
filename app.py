@@ -47,6 +47,12 @@ st.divider()
 
 mdlit('## Certifications')
 
-mdlit(' [yellow] [Deep Learning : Image Classification Linked Certification](https://www.linkedin.com/learning/certificates/a596298c4f5f6fb2e2141126903ab39ae718eec68bc044c6af1277a196cb54ba?li_theme=light) [/yellow]')
+mdlit('[Deep Learning : Image Classification Linked Certification](https://www.linkedin.com/learning/certificates/a596298c4f5f6fb2e2141126903ab39ae718eec68bc044c6af1277a196cb54ba?li_theme=light)')
+
+mdlit('[Data Analysis with Python](https://freecodecamp.org/certification/penny03/data-analysis-with-python-v7)')
+
+mdlit('[Machine Learning with Python](https://freecodecamp.org/certification/penny03/machine-learning-with-python-v7)')
+
+mdlit('[MLOps certification by katonic.ai](https://www.udemy.com/certificate/UC-61f30c11-1032-4d4f-a1d3-8dbef781e4cd/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com)')
 
 st.divider()
