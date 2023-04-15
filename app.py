@@ -47,4 +47,6 @@ st.divider()
 
 mdlit('## Certifications')
 
+mdlit(' [yellow] [Deep Learning : Image Classification Linked Certification](https://www.linkedin.com/learning/certificates/a596298c4f5f6fb2e2141126903ab39ae718eec68bc044c6af1277a196cb54ba?li_theme=light) [/yellow]')
+
 st.divider()
