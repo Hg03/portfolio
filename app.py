@@ -2,7 +2,25 @@ import streamlit as st
 from markdownlit import mdlit
 
 
-st.set_page_config(layout='wide')
+st.set_page_config(title = 'Harish Gehlot',layout='wide')
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {
+	              visibility: hidden;
+                    }
+            footer:after {
+              content:'Made by Harish Gehlot'; 
+              visibility: visible;
+              display: block;
+              position: relative;
+              #background-color: purple;
+              padding: 5px;
+              top: 2px;
+            }
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 with col1:
@@ -24,12 +42,16 @@ st.divider()
 
 mdlit('## ⚙️ My [green]Work[/green] & [green]Projects[/green]')
 
-first = "I've worked on lots of projects based on Machine Learning Operations"
+first = "I've worked on lots of projects based on Machine Learning Operations , Classification, Regression and NLP"
 with st.expander(first):
-    st.markdown('In more detail')
+    mdlit("- [red]**Mobile Price Classification**[/red] - It is a [blue]Machine Learning Classification[/blue] where I've preprocessed the data and build the model with much more accuracy. It is predicting the price range of Mobile Phone if user inputs the all specification of Mobile phone.")
+    mdlit("- [red]Sentiment Analysis[/red] - It is a [blue]Natural Language Processing[/blue] project in which model is going to predict the sentiment of the news that user typed. ")
+    mdlit("- [red]Pipeline Generator[/red] - As we know, Doing repititive process of preprocessing and hyperparameter tune the model is very tedious. So it is a utility which generates a [blue]python[/blue] code depicting the code for preprocessing pipeline.")
+    mdlit("📎 View the whole app consisting this [projects](https://hg03-mlperweek-main-r82uqu.streamlit.app/)")
 second = "I've worked on lots of projects based on Machine Learning Operations"
 with st.expander(second):
-    st.markdown('In more detail')
+    mdlit("- [red]OpenAI exploration[/red] - I've created a project which consist of conversational chatbot using [blue]openai[/blue] and [blue]lanchain[/blue] as well as mimic of [blue]Dalle 2[/blue]")
+    mdlit("- [red]Life Expectany Prediction[/red] - I've created a [blue]Regression[/blue] model which is predicting the rate of life expectancy of person based on **alcohol consumption**, **adult mortality**, **country** etc.")
 third = "I've worked on lots of projects based on Machine Learning Operations"
 with st.expander(third):
     st.markdown('In more detail')
@@ -44,6 +66,8 @@ with st.expander(exp):
     st.markdown('In more detail')
 
 st.divider()
+
+mdlit('## Certifications')
 
 mdlit('## Certifications')
 
