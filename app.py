@@ -44,7 +44,7 @@ mdlit('## ⚙️ My [green]Work[/green] & [green]Projects[/green]')
 
 first = "I've worked on lots of projects based on Machine Learning Operations , Classification, Regression and NLP"
 with st.expander(first):
-    mdlit("- [yellow]**Mobile Price Classification**[/yellow] - It is a [blue]Machine Learning Classification[/blue] where I've preprocessed the data and build the model with much more accuracy. It is predicting the price range of Mobile Phone if user inputs the all specification of Mobile phone.")
+    mdlit("- [yellow]Mobile Price Classification[/yellow] - It is a [blue]Machine Learning Classification[/blue] where I've preprocessed the data and build the model with much more accuracy. It is predicting the price range of Mobile Phone if user inputs the all specification of Mobile phone.")
     mdlit("- [yellow]Sentiment Analysis[/yellow] - It is a [blue]Natural Language Processing[/blue] project in which model is going to predict the sentiment of the news that user typed. ")
     mdlit("- [yellow]Pipeline Generator[/yellow] - As we know, Doing repititive process of preprocessing and hyperparameter tune the model is very tedious. So it is a utility which generates a [blue]python[/blue] code depicting the code for preprocessing pipeline.")
     mdlit("📎 View the whole app consisting this [projects](https://hg03-mlperweek-main-r82uqu.streamlit.app/)")
