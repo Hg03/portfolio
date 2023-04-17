@@ -79,4 +79,6 @@ mdlit('🔥 [Machine Learning with Python](https://freecodecamp.org/certificatio
 
 mdlit('🕖 [MLOps certification by katonic.ai](https://www.udemy.com/certificate/UC-61f30c11-1032-4d4f-a1d3-8dbef781e4cd/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com)')
 
+mdlit('🔺 [Data Structures & Algorithms by Inside Code](https://www.udemy.com/certificate/UC-768ffbc1-74c9-404c-afb2-1bf2fa744d43/)')
+
 st.divider()
