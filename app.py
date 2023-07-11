@@ -33,7 +33,7 @@ with col2:
     mdlit('✉️ [Gmail](https://gehloth03@gmail.com)')
     mdlit('🔵 [LinkedIn](https://www.linkedin.com/in/harish-gehlot-5338a021a/)')
     mdlit('🖋️ [Blog](https://mlpapers.substack.com)')
-    with open("CV.pdf", "rb") as pdf_file:
+    with open("harishgehlot__.pdf", "rb") as pdf_file:
         resume = pdf_file.read()
 
     st.download_button(label="Download Resume",data=resume,file_name="HarishGehlot.pdf",mime='application/octet-stream')
