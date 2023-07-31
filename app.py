@@ -2,7 +2,7 @@ import streamlit as st
 from markdownlit import mdlit
 
 
-st.set_page_config(page_title = 'Harish Gehlot',layout='wide')
+st.set_page_config(page_title = 'Harish Gehlot',page_icon = '🧑‍💼',layout='wide')
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -32,8 +32,8 @@ with col2:
     mdlit('### [yellow]Social Links[/yellow]')
     mdlit('✉️ [Gmail](https://gehloth03@gmail.com)')
     mdlit('🔵 [LinkedIn](https://www.linkedin.com/in/harish-gehlot-5338a021a/)')
-    mdlit('🖋️ [Blog](https://mlpapers.substack.com)')
-    with open("harishgehlot__.pdf", "rb") as pdf_file:
+    mdlit('🖋️ [Blog](https://mlexhaust.hashnode.dev)')
+    with open("mlcv.pdf", "rb") as pdf_file:
         resume = pdf_file.read()
 
     st.download_button(label="Download Resume",data=resume,file_name="HarishGehlot.pdf",mime='application/octet-stream')
@@ -62,10 +62,16 @@ st.divider()
 
 mdlit('## ⚗️ [red]Internship[/red] Experience')
 
-exp = "I've worked as Data Science Intern at katonic.ai"
-with st.expander(exp):
+exp_1 = "I've worked as Data Science Intern at katonic.ai"
+exp_2 = "Currently working as a Machine Learning Engineer at Argus Stratotech"
+with st.expander(exp_1):
     mdlit("@ [violet]Katonic.ai[/violet] , I've explored the processes of MLOps and its importance. I've worked on containerizing the machine learning model and having its [yellow]API[/yellow] and monitoring the model with **CI/CD** pipeline using Kubernetes. Overall I've worked and learned lots of things that how can we perform Machine Learning Operations in a real world.")
     mdlit("Explore if you wish to @(Katonic)(https://www.katonic.ai)")
+
+st.divider()
+
+with st.expander(exp_2):
+    mdlit("[green]Argus Stratotech[/green] is a startup with a beautiful idea of creating [yellow]AGI[/yellow] . Implementing Nash Equillibrium (aspect of microeconomics) to create an algorithm try to predict the good payoff in every possible case. ")
 
 st.divider()
 
